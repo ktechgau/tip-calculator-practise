@@ -1,7 +1,7 @@
 Tip Time - Solution Code
 =================================
 
-Starter code for the [Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course): Tip Time app.
+[Tutorial Link](https://developer.android.com/codelabs/basic-android-kotlin-compose-using-state?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-2-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-using-state#0)
 
 
 Introduction
@@ -10,10 +10,14 @@ The Tip Time app contains various UI elements for calculating a tip,
 teaching about user input, and State in Compose.
 
 
-Pre-requisites
+ Concepts Covered
 --------------
-* Experience with Kotlin syntax.
-* How to create and run a project in Android Studio.
+* State in UI
+* How Compose uses state to display data
+* How to add a text box
+* Hoist a state
+* Played with keyboardOptions for TextField
+* Currency number formatting
 
 
 Getting Started
