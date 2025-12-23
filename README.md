@@ -18,6 +18,9 @@ teaching about user input, and State in Compose.
 * Hoist a state
 * Played with keyboardOptions for TextField
 * Currency number formatting
+* Rounding up with kotlin.math.ceil
+* Applying leading icons to text fields
+* 
 
 
 Getting Started
