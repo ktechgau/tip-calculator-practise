@@ -22,6 +22,7 @@ import androidx.compose.material3.Switch
 import androidx.activity.enableEdgeToEdge
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
+import androidx.annotation.VisibleForTesting
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -210,7 +211,10 @@ private fun RoundTheTipRow(
  * Internal: Visible anywhere inside the module. In this instance, "app" folder is the one module.. If calculateTip is internal, every file in app module can see it.
  */
 
-private fun calculateTip(amount: Double, tipPercent: Double = 15.0, roundUp:Boolean): String {
+// Makes the method public but indicates to others that it is only public for testing purposes
+@VisibleForTesting
+//making this internal so it is available for testing
+internal fun calculateTip(amount: Double, tipPercent: Double = 15.0, roundUp:Boolean): String {
     var tip = tipPercent / 100 * amount
     if (roundUp){
         tip = kotlin.math.ceil(tip)

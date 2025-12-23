@@ -21,7 +21,24 @@ teaching about user input, and State in Compose.
 * Rounding up with kotlin.math.ceil
 * Applying leading icons to text fields
 * Added vertical scrolling for landscape mode
+* Local unit tests with assertEquals
+* UI Tests using Rules, onNodeWithText.performTextInput() and assertExists()
 
+Automated Tests (notes for myself)
+--------------
+Automated testing is code that checks to ensure that another piece of code that you wrote works correctly.
+This repo will intro me to the basics of testing in Android. More advanced testing will come in later codelabs.
+
+Local tests:
+These directly tests small piece of code to ensure a function works expectedly.
+They are run in a development environment without the need of a device or emulator.
+
+Instrumentation tests:
+Aka UI tests. 
+It tests parts of the app that depend on the Android API and its platform APIs and services.
+UI tests launch an app or part of an app simulate user interactions and check of the app reacts correctly.
+When you run UI test on Android, the test code is built into the APK.
+APK = compressed file that contains all the code necessary to run the app on a device or emulator.
 
 Getting Started
 ---------------
