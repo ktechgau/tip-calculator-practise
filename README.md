@@ -3,7 +3,9 @@ Tip Time - Solution Code
 
 [Tutorial Link](https://developer.android.com/codelabs/basic-android-kotlin-compose-using-state?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-2-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-using-state#0)
 
-![Tip Calculator](app/src/main/res/Screenshot_20251223_130704.png)
+<div align="center">
+    <img src="app/src/main/res/Screenshot_20251223_130704.png" width="50%" alt="Tip Calculator">
+</div>
 
 Introduction
 ------------
