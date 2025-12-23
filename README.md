@@ -20,7 +20,7 @@ teaching about user input, and State in Compose.
 * Currency number formatting
 * Rounding up with kotlin.math.ceil
 * Applying leading icons to text fields
-* 
+* Added vertical scrolling for landscape mode
 
 
 Getting Started
